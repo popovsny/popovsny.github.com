@@ -1,0 +1,54 @@
+* {	
+    margin:0; 
+	padding:0; 
+	font-size:100%; 
+	font-weight:normal;
+}
+
+body {
+	font-size:12px; 
+	font-family:arial; 
+    line-height:1.2em;
+}
+
+.b-page {
+    color:#fff;
+    background:#ccc;
+    position:relative;
+    width:960px;
+    height:500px;
+    padding:40px;
+    margin:50px auto;
+}
+.b-page_background {
+    background-image:url(../images/background.png);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-box-shadow: #000 0 0 20px;
+    box-shadow: #000 0 0 20px;
+}
+
+
+/*Accordion*/
+.b-accordion{
+    width:70%;
+}
+
+.b-accordion__item{
+    width:100%;
+}
+
+.b-accordion__item-name{
+   background:#ccc;
+   height:20px; 
+   border-bottom:1px solid #fff;
+}
+.b-accordion__item-text{
+    display:none;
+}
+
+.active .b-accordion__item-text{
+    display:block;
+}
