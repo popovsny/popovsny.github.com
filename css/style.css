@@ -11,7 +11,7 @@ body {
     line-height:1.2em;
 }
 
-.b-page {
+.page {
     color:#fff;
     background:#ccc;
     position:relative;
@@ -20,7 +20,7 @@ body {
     padding:40px;
     margin:50px auto;
 }
-.b-page_background {
+.page_background {
     background-image:url(../images/background.png);
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -32,23 +32,23 @@ body {
 
 
 /*Accordion*/
-.b-accordion{
+.accordion{
     width:70%;
 }
 
-.b-accordion__item{
+.accordion__item{
     width:100%;
 }
 
-.b-accordion__item-name{
+.accordion__item-name{
    background:#ccc;
    height:20px; 
    border-bottom:1px solid #fff;
 }
-.b-accordion__item-text{
+.accordion__item-text{
     display:none;
 }
 
-.active .b-accordion__item-text{
+.active .accordion__item-text{
     display:block;
 }
